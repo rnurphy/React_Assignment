@@ -9,9 +9,27 @@ export const layout = css`
     padding: 0px 20px;
     width: 100%;
     height: 90%;
-    color: white;
+    color: white;   
 `;
 
 export const title = css`
     cursor: default;
 `;
+
+export const imgLayout = css`
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 25%;
+    width: 200px;
+    height: 200px;
+
+    overflow: hidden;
+
+    & > img {
+        width: 100%;
+    }
+`

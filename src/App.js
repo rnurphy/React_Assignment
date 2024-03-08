@@ -13,8 +13,7 @@ function App() {
       <Routes>
         {
           SIDEBAR_MENUS.map(
-            menu => 
-            <Route key={menu.id} path={menu.path} element={menu.element}/>
+            menu => <Route key={menu.id} path={menu.path} element={menu.element}/>
           )
         }
       </Routes>
